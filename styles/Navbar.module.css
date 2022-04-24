@@ -8,6 +8,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
+    z-index: 999;
     
 }
 
@@ -15,6 +16,7 @@
     flex: 1;
     display: flex;
     align-items: center;
+   
 
 }
 
@@ -38,17 +40,18 @@
 }
 
 .texts{
-    margin-left: 20px;
+    margin-left: 15px;
     color: black;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .text:first-child{
-    font-size: 16px;
+    font-size: 23px;
     font-weight: 500;
 }
 
 .text:last-child{
-    font-size: 20px;
+    font-size: 23px;
     font-weight: bold;
 }
 
@@ -57,6 +60,7 @@
     display: flex;
     align-items: center;
     list-style: none;
+    
    
     
 }
@@ -68,6 +72,7 @@
 
 .cart{
     position: relative;
+    margin-right: 20%;
 }
 
 .counter{
@@ -75,11 +80,11 @@
     top: 0px;
     right: 0px;
     font-size: 16px;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border-radius:50%;
     background-color:green;
-    padding: 3px;
+    padding: 5px;
     font-weight: bold;
     color: white;
     display: flex;

@@ -17,6 +17,7 @@ const Navbar = () => {
         <ul className={styles.list}>
           <li className={styles.listItem}>Home</li>
           <li className={styles.listItem}>Menu</li>
+          <li className={styles.listItem}>Products</li>
           <Image
             src="/images/bobes-logo2.png"
             alt="Bobe's"
