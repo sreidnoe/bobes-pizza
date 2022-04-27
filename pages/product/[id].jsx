@@ -3,6 +3,9 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
 
+//placeholder text, delete when seen. 
+//also this too. 
+
 const Product = () => {
   const [size, setSize] = useState(0);
   const pizza = {
