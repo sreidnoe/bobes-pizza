@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Featured from "../components/Features";
+import PizzaList from "../components/PizzaList";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -16,12 +17,13 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-          href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredericka+the+Great&family=Tapestry&display=swap"
           rel="stylesheet"
         />
       </Head>
 
       <Featured />
+      <PizzaList />
     </div>
   );
 }
