@@ -76,6 +76,10 @@
   font-weight: 500;
 }
 
+.listItem:hover{
+  cursor: pointer;
+}
+
 .cart {
   position: relative;
   margin-right: 20%;
