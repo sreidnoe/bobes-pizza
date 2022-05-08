@@ -18,6 +18,10 @@
   z-index: 999;
 }
 
+.homeButton {
+  font-weight: 500;
+}
+
 .item {
   flex: 1;
   display: flex;
@@ -26,6 +30,10 @@
 
 .item:nth-child(2) {
   flex: 3;
+}
+
+.item:nth-child(3) {
+  justify-content: flex-end;
 }
 
 .item:nth-child(3) {
@@ -71,6 +79,7 @@
 .cart {
   position: relative;
   margin-right: 20%;
+  cursor: pointer;
 }
 
 .counter {
@@ -88,4 +97,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .item:nth-child(2) {
+ display: none;
+}
+
 }

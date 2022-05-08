@@ -6,12 +6,12 @@
   align-items: center;
   justify-content: center;
   padding: 20px 40px;
-  cursor: pointer;
 }
 
 .pizza img {
   border-radius: 7000px 4000px;
   animation: rotation 20s infinite linear;
+  cursor: pointer;
 }
 
 
@@ -45,3 +45,23 @@
   color: #777777;
 }
 
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 27px;
+    text-align: center;
+  }
+
+  .price {
+    font-size: 17px;
+  }
+
+  .desc {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  }

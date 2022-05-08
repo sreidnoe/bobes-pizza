@@ -31,3 +31,10 @@
   position: relative;
   overflow: hidden;
 }
+
+
+@media screen and (max-width: 480px) {
+  .container{
+    height: 50vh;
+  }
+}

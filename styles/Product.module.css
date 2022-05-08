@@ -121,3 +121,30 @@
 .title{
   font-family: 'Fredericka the Great', cursive;
 }
+
+@media screen and (max-width: 480px) {
+
+  
+
+  .container {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .sizes {
+    width: 100%;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .ingredients {
+ flex-direction: column;
+ align-items: center;
+
+  }
+
+  .option {
+    margin: 10px;
+  }
+}

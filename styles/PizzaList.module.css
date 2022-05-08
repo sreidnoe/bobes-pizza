@@ -23,3 +23,16 @@
   font-family: 'Fredericka the Great', cursive;
   color: green;
 }
+
+@media screen and (max-width: 480px) {
+  .title {
+    text-align: center;
+    font-size: larger;
+  }
+
+  .desc {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+  }
