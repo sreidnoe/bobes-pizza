@@ -1,17 +1,12 @@
 import styles from "../styles/Cart.module.css";
 import Head from "next/head";
 import Image from "next/image";
-<<<<<<< HEAD
 import { useDispatch, useSelector } from "react-redux";
 
 const Cart = () => {
   const dispatch = useDispatch();
     const cart = useSelector(state=>state.cart);
   
-=======
-
-const Cart = () => {
->>>>>>> 77cc9ba5d9b3db452d11a0f56f3b5efd8cd5b787
   return (
     <div className={styles.container}>
       <Head>
@@ -38,20 +33,12 @@ const Cart = () => {
             <th>Quantity</th>
             <th>Total</th>
           </tr>
-<<<<<<< HEAD
           {cart.products.map(product=>(
             <tr className={styles.tr} key={product._id}>
             <td>
               <div className={styles.imgContainer}>
                 <Image
                   src={product.img}
-=======
-          <tr className={styles.tr}>
-            <td>
-              <div className={styles.imgContainer}>
-                <Image
-                  src="/images/expizza.png"
->>>>>>> 77cc9ba5d9b3db452d11a0f56f3b5efd8cd5b787
                   layout="fill"
                   objectFit="cover"
                   alt=""
@@ -86,21 +73,13 @@ const Cart = () => {
         <div className={styles.wrapper}>
           <h2 className={styles.title}>CART TOTAL</h2>
           <div className={styles.totalText}>
-<<<<<<< HEAD
             <b className={styles.totalTextTitle}>Subtotal:</b>${cart.total}
-=======
-            <b className={styles.totalTextTitle}>Subtotal:</b>$34.50
->>>>>>> 77cc9ba5d9b3db452d11a0f56f3b5efd8cd5b787
           </div>
           <div className={styles.totalText}>
             <b className={styles.totalTextTitle}>Discount:</b>$0.00
           </div>
           <div className={styles.totalText}>
-<<<<<<< HEAD
             <b className={styles.totalTextTitle}>Total:</b>${cart.total}
-=======
-            <b className={styles.totalTextTitle}>Total:</b>$34.50
->>>>>>> 77cc9ba5d9b3db452d11a0f56f3b5efd8cd5b787
           </div>
           <button className={styles.button}>Checkout now!</button>
         </div>
@@ -109,8 +88,4 @@ const Cart = () => {
   );
 };
 
-<<<<<<< HEAD
 export default Cart;
-=======
-export default Cart;
->>>>>>> 77cc9ba5d9b3db452d11a0f56f3b5efd8cd5b787
