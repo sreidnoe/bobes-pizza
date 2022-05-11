@@ -4,8 +4,7 @@ import { useSelector } from "react-redux";
 import Link from "next/link";
 
 const Navbar = () => {
-
-  const quantity = useSelector(state => state.cart.quantity);
+  const quantity = useSelector((state) => state.cart.quantity);
 
   return (
     <div className={styles.container}>
@@ -20,7 +19,9 @@ const Navbar = () => {
       </div>
       <div className={styles.item}>
         <ul className={styles.list}>
-          <li className={styles.homeButton}><a href="http://localhost:3000">Home</a></li>
+          <li className={styles.homeButton}>
+            <a href="/">Home</a>
+          </li>
           <li className={styles.listItem}>Menu</li>
           <li className={styles.listItem}>Products</li>
           <Image
