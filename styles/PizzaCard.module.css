@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px 40px;
+  justify-content: space-between;
 }
 
 .pizza img {
@@ -29,7 +30,8 @@
 .title {
   color: green;
   font-family: 'Fredericka the Great', cursive;
-  
+  text-align: center;
+  font-size: 25px;
   
 }
 
