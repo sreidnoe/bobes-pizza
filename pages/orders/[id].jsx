@@ -1,13 +1,13 @@
 import styles from "../../styles/Order.module.css";
 import Image from "next/image";
 
-const Order = () => {
+const Order = ({ order }) => {
   const status = 0;
 
   const statusClass = (index) => {
-    if (index-status < 1) return styles.done;
-    if (index-status === 1) return styles.inProgress;
-    if (index-status > 1) return styles.undone;
+    if (index - status < 1) return styles.done;
+    if (index - status === 1) return styles.inProgress;
+    if (index - status > 1) return styles.undone;
   };
   return (
     <div className={styles.container}>
@@ -22,16 +22,16 @@ const Order = () => {
             </tr>
             <tr className={styles.tr}>
               <td>
-                <span className={styles.id}>129837819237</span>
+                <span className={styles.id}>1</span>
               </td>
               <td>
                 <span className={styles.name}>John Doe</span>
               </td>
               <td>
-                <span className={styles.address}>Elton st. 212-33 LA</span>
+                <span className={styles.address}>123 Anywhere St</span>
               </td>
               <td>
-                <span className={styles.total}>$79.80</span>
+                <span className={styles.total}>$18</span>
               </td>
             </tr>
           </table>
@@ -95,13 +95,13 @@ const Order = () => {
         <div className={styles.wrapper}>
           <h2 className={styles.title}>CART TOTAL</h2>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Subtotal:</b>$79.60
+            <b className={styles.totalTextTitle}>Subtotal:</b>$18
           </div>
           <div className={styles.totalText}>
             <b className={styles.totalTextTitle}>Discount:</b>$0.00
           </div>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Total:</b>$79.60
+            <b className={styles.totalTextTitle}>Total:</b>$18
           </div>
           <button disabled className={styles.button}>
             PAID

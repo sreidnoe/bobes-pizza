@@ -45,4 +45,25 @@ How this project will meet the minimum project requirements?
 GitHub origin https://github.com/sreidnoe/group-project.git
 
 
+
+<div>
+              <h3 className={styles.fill}>Stromboli - $7.25 / $9.50</h3>
+              <p className={styles.sandInfo}>Sausage, Pepperoni, Onions</p>
+            </div>
+            <div>
+              <h3 className={styles.fill}>Stromboli - $7.25 / $9.50</h3>
+              <p className={styles.sandInfo}>Sausage, Pepperoni, Onions</p>
+            </div>
+            <div>
+              <h3 className={styles.fill}>Stromboli - $7.25 / $9.50</h3>
+              <p className={styles.sandInfo}>Sausage, Pepperoni, Onions</p>
+            </div>
+            <div>
+              <h3 className={styles.fill}>Stromboli - $7.25 / $9.50</h3>
+              <p className={styles.sandInfo}>Sausage, Pepperoni, Onions</p>
+            </div>
+
+            
+
+
     

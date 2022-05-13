@@ -5,8 +5,8 @@ import { useDispatch, useSelector } from "react-redux";
 
 const Cart = () => {
   const dispatch = useDispatch();
-    const cart = useSelector(state=>state.cart);
-  
+  const cart = useSelector((state) => state.cart);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -33,40 +33,43 @@ const Cart = () => {
             <th>Quantity</th>
             <th>Total</th>
           </tr>
-          {cart.products.map(product=>(
+          {cart.products.map((product) => (
             <tr className={styles.tr} key={product._id}>
-            <td>
-              <div className={styles.imgContainer}>
-                <Image
-                  src={product.img}
-                  layout="fill"
-                  objectFit="cover"
-                  alt=""
-                />
-              </div>
-            </td>
-            <td>
-              <span className={styles.name}>{product.title}</span>
-            </td>
-            <td>
-              <span className={styles.extras}>
-                {product.extras.map(extra=>(
-                  <span key={extra._id}>{extra.text} </span>
-                ))}
-              </span>
-            </td>
-            <td>
-              <span className={styles.price}>Price: ${product.price}</span>
-            </td>
-            <td>
-              <span className={styles.quantity}>Quantity: {product.quantity}</span>
-            </td>
-            <td>
-              <span className={styles.total}>Total: ${product.price * product.quantity}</span>
-            </td>
-          </tr>
+              <td>
+                <div className={styles.imgContainer}>
+                  <Image
+                    src={product.img}
+                    layout="fill"
+                    objectFit="cover"
+                    alt=""
+                  />
+                </div>
+              </td>
+              <td>
+                <span className={styles.name}>{product.title}</span>
+              </td>
+              <td>
+                <span className={styles.extras}>
+                  {product.extras.map((extra) => (
+                    <span key={extra._id}>{extra.text} </span>
+                  ))}
+                </span>
+              </td>
+              <td>
+                <span className={styles.price}>Price: ${product.price}</span>
+              </td>
+              <td>
+                <span className={styles.quantity}>
+                  Quantity: {product.quantity}
+                </span>
+              </td>
+              <td>
+                <span className={styles.total}>
+                  Total: ${product.price * product.quantity}
+                </span>
+              </td>
+            </tr>
           ))}
-          
         </table>
       </div>
       <div className={styles.right}>
@@ -81,7 +84,9 @@ const Cart = () => {
           <div className={styles.totalText}>
             <b className={styles.totalTextTitle}>Total:</b>${cart.total}
           </div>
-          <button className={styles.button}>Checkout now!</button>
+          <a href="/orders/1">
+            <button className={styles.button}>Cash on Delivery!</button>
+          </a>
         </div>
       </div>
     </div>
