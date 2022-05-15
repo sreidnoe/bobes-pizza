@@ -16,7 +16,6 @@ const Cart = () => {
           content="BOBE'S PIZZA IN LAWRENCEVILLE, MT. CARMEL, OLNEY, ALBION AND VINCENNES"
         />
         <link rel="icon" href="/favicon.ico" />
-        
       </Head>
       <div className={styles.left}>
         <table className={styles.table}>
