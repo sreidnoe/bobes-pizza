@@ -4,10 +4,10 @@ import React, { useEffect, useState } from "react";
 import Head from "next/head";
 import axios from "axios";
 import { useDispatch } from "react-redux";
-import {addProduct} from "../../redux/cartSlice";
+import { addProduct } from "../../redux/cartSlice";
 
-//placeholder text, delete when seen. 
-//also this too. 
+//placeholder text, delete when seen.
+//also this too.
 
 const Product = ({ pizza }) => {
   const [price, setPrice] = useState(pizza.prices[0]);
@@ -38,10 +38,9 @@ const Product = ({ pizza }) => {
     }
   };
 
-  const handleClick= () => {
-    dispatch(addProduct({...pizza,extras,price,quantity}));
+  const handleClick = () => {
+    dispatch(addProduct({ ...pizza, extras, price, quantity }));
   };
-
 
   return (
     <div className={styles.container}>
@@ -89,13 +88,11 @@ const Product = ({ pizza }) => {
             <Image src="/images/dot.png" layout="fill" alt="" />
             <span className={styles.number}>14"</span>
           </div>
-
         </div>
 
         <h3 className={styles.choose}>Choose Additional Ingredients</h3>
         <div className={styles.ingredients}>
-          {pizza.extraOptions.map(option => (
-
+          {pizza.extraOptions.map((option) => (
             <div className={styles.option} key={option._id}>
               <input
                 type="checkbox"
@@ -106,18 +103,18 @@ const Product = ({ pizza }) => {
               />
               <label htmlFor="double">{option.text}</label>
             </div>
-
           ))}
-
-
         </div>
         <div className={styles.add}>
-          <input onChange={(e) => setQuantity(e.target.value)}
+          <input
+            onChange={(e) => setQuantity(e.target.value)}
             type="number"
             defaultValue={1}
             className={styles.quantity}
           />
-          <button className={styles.button} onClick={handleClick}>Add to Cart</button>
+          <button className={styles.button} onClick={handleClick}>
+            Add to Cart
+          </button>
         </div>
       </div>
     </div>
@@ -125,7 +122,9 @@ const Product = ({ pizza }) => {
 };
 
 export const getServerSideProps = async ({ params }) => {
-  const res = await axios.get(`http://localhost:3000/api/products/${params.id}`);
+  const res = await axios.get(
+    `http://localhost:3000/api/products/${params.id}`
+  );
   return {
     props: {
       pizza: res.data,

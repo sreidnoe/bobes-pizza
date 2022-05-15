@@ -4,8 +4,9 @@ import Featured from "../components/Features";
 import PizzaList from "../components/PizzaList";
 import styles from "../styles/Home.module.css";
 import axios from "axios";
+import React from "react";
 
-export default function Home({pizzaList}) {
+export default function Home({ pizzaList }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -16,7 +17,11 @@ export default function Home({pizzaList}) {
         />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="true"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredericka+the+Great&family=Tapestry&display=swap"
           rel="stylesheet"
@@ -24,7 +29,7 @@ export default function Home({pizzaList}) {
       </Head>
 
       <Featured />
-      <PizzaList pizzaList={pizzaList}/>
+      <PizzaList pizzaList={pizzaList} />
     </div>
   );
 }
