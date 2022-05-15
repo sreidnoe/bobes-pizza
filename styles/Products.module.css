@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredericka+the+Great&family=Tapestry&display=swap");
+
+
+
+.container{
+    
+    padding: 10px;
+    background-color: black;
+    /* display: flex; */
+}
+
+
+.card{
+    border-radius: 28px;
+
+}
+
+.card:hover{
+    transform: translateY(-3px) scale(1.1);
+}
+
+
+.cardTall{
+    grid-row: span 2 / auto;
+    border-radius:  28px;    
+}
+
+.cardTall:hover{
+    transform: translateY(-3px) scale(1.1);
+}
+
+.cardWide{
+    grid-column: span 2 / auto;
+    background-color: lightblue;
+    border-radius: 28px;
+}
+
+
+.header{
+    background-color: antiquewhite;    
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 60px;
+    border-radius: 28px;
+    margin: 10px 10px;
+    font-family: "Fredericka the Great", cursive;;
+    
+}
+
+.photoGrid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-auto-rows: 240px;
+    margin-top: 25px;
+
+}
+
+.text{
+    margin-left:60%;
+    margin-top: 3%;
+    color:white;
+    font-family: "Fredericka the Great", cursive;
+    font-size: 20px;
+    text-align: center; 
+ }
+
+#one{
+    background-image: url("/images/photos-food/breadSticks.jpg");
+    background-repeat: no-repeat;
+    background-size: 265%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#two{
+    background-image: url("/images/photos-food/Brooklyn_Cheese.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    background-position: 80% 65%; 
+
+}
+
+#three{
+    background-image: url("/images/photos-food/Buff_Chick.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: 45% 80%;   
+
+
+}
+
+#four{
+    background-image: url("/images/photos-food/Farouk.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: 45% 80%;   
+
+}
+
+#five{
+    background-image: url("/images/photos-food/Dough_Multi.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: 45% 60%;   
+
+}
+
+#six{
+    background-image: url("/images/photos-food/Cinnamon.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: 45% 60%;   
+
+}
+
+#seven{
+    background-image: url("/images/photos-food/Farouk_Sand.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: 45% 60%;   
+
+}
+
+#eight{
+    background-image: url("/images/photos-food/Pizza_Bowl.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: 45% 80%;   
+
+}
+
+#nine{
+    background-image: url("/images/photos-food/Dough.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%; 
+    background-position: 45% 60%;   
+
+}
+
+#ten{
+    background-image: url("/images/photos-food/Extra_Cheese.jpg");
+    background-repeat: no-repeat;
+    background-size: 160%; 
+    background-position: 45% 60%;   
+
+}
+
+#eleven{
+    background-image: url("/images/photos-food/Small_Pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: 45% 60%;   
+
+}
+
+#twelve{
+    background-image: url("/images/photos-food/Chicken_BR.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: 45% 60%;   
+
+}
+
+#cinnamon{
+    
+    color: black;
+    font-weight: bold;
+}
+
+#farouk{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+

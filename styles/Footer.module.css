@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredericka+the+Great&family=Tapestry&display=swap");
+
 
 .container {
   height: calc(100vh - 100px);
@@ -69,72 +68,3 @@
     height: 490px;
   }
 }
-=======
-.container {
-    height: calc(100vh - 100px);
-    background-color: #ea0a0c;
-    background-image: linear-gradient(43deg, #ea0a0c 0%, #f2e9f2 22%, #118934 49%, #ffffff 75%, #f70707 100%);
-    display: flex;
-}
-
-
-
-.title {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 18px;
-    color: #304
-}
-
-.item {
-    flex: 1;
-    position: relative;
-    display: flex;
-}
-
-.card {
-    flex: 1;
-    padding: 0px 20px;
-}
-
-
-
-.text {
-    color: #304;
-    font-size: 14px;
-}
-
-.motto {
-    color: #304;
-    text-align: left;
-    font-size: 35px;
-    margin-top: 75%;
-    font-family: 'Fredericka the Great', cursive;
-}
-
-
-@media screen and (max-width: 480px) {
- .motto {
-     font-size: 15px;
- }
-
- .title {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 12px;
-    color: #304
-}
-
-.text {
-    color: #304;
-    font-size: 10px;
-}
-
-.item {
-    flex: 0;
-}
-
-.container {
-    height: 490px;
-}
-
-}
->>>>>>> 9e74b7891a148344d20ff57ee6ca2c54d313bb6e

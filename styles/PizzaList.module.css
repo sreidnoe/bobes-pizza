@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredericka+the+Great&family=Tapestry&display=swap");
 
-=======
->>>>>>> 9e74b7891a148344d20ff57ee6ca2c54d313bb6e
 .container {
   padding: 20px 10px;
   display: flex;
@@ -24,13 +21,8 @@
   flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
 .title {
   font-family: "Fredericka the Great", cursive;
-=======
-.title{
-  font-family: 'Fredericka the Great', cursive;
->>>>>>> 9e74b7891a148344d20ff57ee6ca2c54d313bb6e
   color: green;
 }
 
@@ -45,8 +37,4 @@
     text-align: center;
     font-size: 18px;
   }
-<<<<<<< HEAD
 }
-=======
-  }
->>>>>>> 9e74b7891a148344d20ff57ee6ca2c54d313bb6e
