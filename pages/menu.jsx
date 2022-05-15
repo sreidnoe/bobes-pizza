@@ -19,6 +19,7 @@ const menu = () => {
           rel="stylesheet"
         />
       </Head>
+
       <div className={styles.menu}>
         <h2 className={styles.heading}>Appetizers</h2>
         <div className={styles.menuGroup}>
@@ -57,6 +58,7 @@ const menu = () => {
             </div>
           </div>
         </div>
+
         <div className={styles.box}>
           <div className={styles.left}>
             <h2 className={styles.headingSmall}>Toasted Sandwiches</h2>
@@ -78,6 +80,9 @@ const menu = () => {
             </div>
           </div>
         </div>
+
+
+
 
         <h2 className={styles.heading}>Specialty Sandwiches</h2>
         <div className={styles.toasted}>
