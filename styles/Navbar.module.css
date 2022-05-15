@@ -1,0 +1,111 @@
+.container {
+  height: 100px;
+  padding: 0px 50px;
+  background-color: #ea0a0c;
+  background-image: linear-gradient(
+    43deg,
+    #ea0a0c 0%,
+    #f2e9f2 22%,
+    #118934 49%,
+    #ffffff 75%,
+    #f70707 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.homeButton {
+  font-weight: 500;
+}
+
+.item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.item:nth-child(2) {
+  flex: 3;
+}
+
+.item:nth-child(3) {
+  justify-content: flex-end;
+}
+
+.item:nth-child(3) {
+  justify-content: flex-end;
+}
+
+.callButton {
+  background-color: #2af55c;
+  border-radius: 100px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.texts {
+  margin-left: 15px;
+  color: black;
+  font-family: "Fredericka the Great", cursive;
+}
+
+.text:first-child {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.text:last-child {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.list {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.listItem {
+  margin: 20px;
+  font-weight: 500;
+}
+
+.listItem:hover{
+  cursor: pointer;
+}
+
+.cart {
+  position: relative;
+  margin-right: 20%;
+  cursor: pointer;
+}
+
+.counter {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 16px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: green;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .item:nth-child(2) {
+ display: none;
+}
+
+}

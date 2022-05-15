@@ -1,0 +1,8 @@
+Issue Resolve nginx
+
+Starting nginx
+sudo /etc/init.d/apache2 stop
+sudo systemctl restart nginx
+
+
+

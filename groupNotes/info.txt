@@ -1,0 +1,69 @@
+Use npm run dev to start
+
+
+Team Name
+     - Team Awesome
+
+Application Name
+    - Bobe's Pizza
+
+Technology used for your Front End, Back End, and Database
+    - Paypal Integration
+    - Redux 
+    - Admin Dashboard
+    - Cookie Authorization
+    - Ability to Add New Products
+    - Shopping Cart
+    - Order Queue and delivery status {}
+    - {Stretch} Google Maps API
+
+Initial features you plan for the application along with user 
+stories for those features (how each feature will be used by each
+type of user of the application)
+    - admin used by admin users
+    - shopping cart and front end is used by customers 
+
+Source control technology used (Git, GitHub, GitKraken, etc)
+    - GitHub
+
+Where your application will be deployed to (Azure, Amazon Web 
+Services, Google Cloud, etc..)
+    - AWS
+
+How this project will meet the minimum project requirements?
+    Front End Framework (React/Angular)
+        - React
+    Back End Framework (Node + Express/ASP.NET Core/Java Spring)
+        - Node
+    Database (SQL or NoSQL)
+        - NoSQL with MognoDB
+    Styled with CSS
+        - Yes
+    Responsive
+        -Yes
+
+GitHub origin https://github.com/sreidnoe/group-project.git
+
+
+
+<div>
+              <h3 className={styles.fill}>Stromboli - $7.25 / $9.50</h3>
+              <p className={styles.sandInfo}>Sausage, Pepperoni, Onions</p>
+            </div>
+            <div>
+              <h3 className={styles.fill}>Stromboli - $7.25 / $9.50</h3>
+              <p className={styles.sandInfo}>Sausage, Pepperoni, Onions</p>
+            </div>
+            <div>
+              <h3 className={styles.fill}>Stromboli - $7.25 / $9.50</h3>
+              <p className={styles.sandInfo}>Sausage, Pepperoni, Onions</p>
+            </div>
+            <div>
+              <h3 className={styles.fill}>Stromboli - $7.25 / $9.50</h3>
+              <p className={styles.sandInfo}>Sausage, Pepperoni, Onions</p>
+            </div>
+
+            
+
+
+    

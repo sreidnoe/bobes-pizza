@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredericka+the+Great&family=Tapestry&display=swap");
+
+.container {
+  padding: 50px;
+  display: flex;
+}
+
+.left {
+  flex: 2;
+}
+
+.right {
+  flex: 1;
+}
+
+.imgContainer {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 20px;
+}
+
+.name {
+  font-weight: 500;
+  color: red;
+  font-size: 18px;
+}
+
+.total {
+  font-size: 18px;
+}
+
+.payButton {
+  border-radius: 28px;
+  padding: 16px 31px;
+}
+
+.button {
+  background-color: green;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  background-color: #5cbf2a;
+  color: #fff;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.totalTextTitle {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .trTitle {
+    display: none;
+  }
+
+  .tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+
+  .imgContainer {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .quantity {
+    font-weight: bold;
+  }
+
+  .total {
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  .price {
+    font-weight: bold;
+  }
+
+  .wrapper {
+    align-items: center;
+    display: flex;
+  }
+}
+
+.paymentMethods {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}

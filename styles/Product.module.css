@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredericka+the+Great&family=Tapestry&display=swap");
+
+.container {
+  height: calc(100vh - 100px);
+  display: flex;
+  cursor: pointer;
+}
+
+.left {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+}
+
+.imgContainer {
+  width: 80%;
+  height: 80%;
+  position: relative;
+}
+
+.price {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Fredericka the Great", cursive;
+  border-bottom: 1px solid red;
+}
+
+.sizes {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.size {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.size:nth-child(2) {
+  width: 37px;
+  height: 37px;
+}
+
+.size:nth-child(3) {
+  width: 45px;
+  height: 45px;
+}
+
+.size:last-child {
+  width: 51px;
+  height: 51px;
+}
+
+.number {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: green;
+  color: white;
+  font-size: 12px;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+
+.ingredients {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 500px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.button {
+  background-color: green;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 8px 15px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin-left: 10px;
+}
+.button:hover {
+  background-color: #5cbf2a;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.quantity {
+  width: 50px;
+  height: 30px;
+}
+
+.size:hover {
+  transform: scale(1.5);
+}
+
+.title {
+  font-family: "Fredericka the Great", cursive;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .sizes {
+    width: 100%;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .ingredients {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .option {
+    margin: 10px;
+  }
+}

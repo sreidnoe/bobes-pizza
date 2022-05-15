@@ -1,0 +1,20 @@
+{
+    "title":"margarita",
+    "img":"/images/example.png",
+    "desc":"well you know what a margarita pizza is dummy",
+    "prices":[12,13,14],
+    "extraOptions":[
+        {
+            "text":"extra sauce",
+             "price": 2
+             },
+             {
+                 "text": "add bacon",
+                 "price": "1"
+             },
+             {
+                 "text": "add more sauce",
+                 "price": "2"
+             }
+             ]
+    }

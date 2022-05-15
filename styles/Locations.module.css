@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredericka+the+Great&family=Tapestry&display=swap");
+
+.button {
+  background-color: green;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin: 10px;
+}
+
+.button:hover {
+  background-color: #5cbf2a;
+  color: #fff;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.heading {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 60px;
+  text-shadow: 3px 3px #330707e1;
+  box-shadow: 10px 5px 5px #330707e1;
+  font-family: "Fredericka the Great", cursive;
+  margin: 5%;
+}
+
+.info {
+  margin-top: 25%;
+}
+
+.left {
+  justify-content: center;
+  text-align: center;
+  margin-left: 5%;
+}
+
+.link {
+  color: green;
+  font-weight: bold;
+  border-bottom: 1px solid green;
+}
+
+.location {
+  display: flex;
+  padding: 15px;
+  justify-content: space-evenly;
+  border: double;
+  margin: 10px;
+}
+
+.textHead {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 25px;
+  font-weight: bold;
+}

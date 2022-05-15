@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredericka+the+Great&family=Tapestry&display=swap");
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em;
+}
+
+.heading {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 60px;
+  text-shadow: 3px 3px #330707e1;
+  box-shadow: 10px 5px 5px #330707e1;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: green;
+  color: white;
+  text-shadow: 3px 3px #330707e1;
+  box-shadow: 10px 5px 5px #330707e1;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fill {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+
+.fillSmall {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  margin-top: 40px;
+}
+
+.cinnamon {
+  margin-top: 50%;
+}
+
+.toasted {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.bowl {
+  margin-top: 25%;
+}
+
+.leftSand {
+  width: 50%;
+  text-align: center;
+}
+
+.rightSand {
+  width: 50%;
+  text-align: center;
+}
+
+.sandInfo {
+  font-display: flex;
+  justify-content: flex-end;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.sandName {
+  font-family: "Fredericka the Great", cursive;
+  font-weight: bold;
+}
+
+.menu {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 14px;
+}
+
+.menuGroupHeading {
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+}
+
+.menuGroup {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
+
+.menuItem {
+  display: flex;
+}
+
+.menuItemImage {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
+}
+
+.menuItemText {
+  flex-grow: 1;
+}
+
+.menuItemHeading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.menuItemName {
+  margin-right: 1.5em;
+}
+
+.menuItemDescription {
+  line-height: 1.6;
+  font-family: "Fredericka the Great", cursive;
+}
+
+.buildOwn {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+.leftPizza {
+  width: 50%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.table {
+  font-weight: bold;
+  margin-left: 30%;
+}
+
+.pizzaContainer {
+  display: flex;
+  text-align: center;
+}
+
+.leftPizza {
+  background-color: green;
+  color: white;
+  text-shadow: 1px 1px #330707e1;
+  box-shadow: 10px 5px 5px #330707e1;
+  padding-bottom: 5%;
+  size: 22px;
+  margin-top: 5px;
+}
+
+.rightPizza {
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.toppings {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .menu {
+    font-size: 16px;
+  }
+
+  .menuGroup {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menuItemImage {
+    width: 200px;
+    height: 200px;
+  }
+
+  .menuGroup {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .toasted {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pizzaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftPizza {
+    width: 100%;
+  }
+}
