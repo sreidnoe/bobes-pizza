@@ -213,6 +213,8 @@
   }
 
   .leftPizza {
+    display: flex;
     width: 100%;
   }
+
 }

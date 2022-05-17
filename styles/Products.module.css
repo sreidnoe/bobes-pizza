@@ -2,53 +2,52 @@
 
 
 
-.container{
-    
+.container {
+
     padding: 10px;
     background-color: black;
     /* display: flex; */
 }
 
 
-.card{
+.card {
     border-radius: 28px;
 
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-3px) scale(1.1);
 }
 
 
-.cardTall{
+.cardTall {
     grid-row: span 2 / auto;
-    border-radius:  28px;    
+    border-radius: 28px;
 }
 
-.cardTall:hover{
+.cardTall:hover {
     transform: translateY(-3px) scale(1.1);
 }
 
-.cardWide{
+.cardWide {
     grid-column: span 2 / auto;
     background-color: lightblue;
     border-radius: 28px;
 }
 
 
-.header{
-    background-color: antiquewhite;    
+.header {
+    background-color: antiquewhite;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 60px;
     border-radius: 28px;
     margin: 10px 10px;
-    font-family: "Fredericka the Great", cursive;;
-    
+    font-family: "Fredericka the Great", cursive;
 }
 
-.photoGrid{
+.photoGrid {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -57,121 +56,132 @@
 
 }
 
-.text{
-    margin-left:60%;
+.text {
+    margin-left: 60%;
     margin-top: 3%;
-    color:white;
+    color: white;
     font-family: "Fredericka the Great", cursive;
     font-size: 20px;
-    text-align: center; 
- }
+    text-align: center;
+}
 
-#one{
+#one {
     background-image: url("/images/photos-food/breadSticks.jpg");
     background-repeat: no-repeat;
     background-size: 265%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#two{
+#two {
     background-image: url("/images/photos-food/Brooklyn_Cheese.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;    
-    background-position: 80% 65%; 
+    background-size: 100%;
+    background-position: 80% 65%;
 
 }
 
-#three{
+#three {
     background-image: url("/images/photos-food/Buff_Chick.jpg");
     background-repeat: no-repeat;
-    background-size: 100%; 
-    background-position: 45% 80%;   
+    background-size: 100%;
+    background-position: 45% 80%;
 
 
 }
 
-#four{
+#four {
     background-image: url("/images/photos-food/Farouk.jpg");
     background-repeat: no-repeat;
-    background-size: 100%; 
-    background-position: 45% 80%;   
+    background-size: 100%;
+    background-position: 45% 80%;
 
 }
 
-#five{
+#five {
     background-image: url("/images/photos-food/Dough_Multi.jpg");
     background-repeat: no-repeat;
-    background-size: 100%; 
-    background-position: 45% 60%;   
+    background-size: 100%;
+    background-position: 45% 60%;
 
 }
 
-#six{
+#six {
     background-image: url("/images/photos-food/Cinnamon.jpg");
     background-repeat: no-repeat;
-    background-size: 100%; 
-    background-position: 45% 60%;   
+    background-size: 100%;
+    background-position: 45% 60%;
 
 }
 
-#seven{
+#seven {
     background-image: url("/images/photos-food/Farouk_Sand.jpg");
     background-repeat: no-repeat;
-    background-size: 100%; 
-    background-position: 45% 60%;   
+    background-size: 100%;
+    background-position: 45% 60%;
 
 }
 
-#eight{
+#eight {
     background-image: url("/images/photos-food/Pizza_Bowl.jpg");
     background-repeat: no-repeat;
-    background-size: 100%; 
-    background-position: 45% 80%;   
+    background-size: 100%;
+    background-position: 45% 80%;
 
 }
 
-#nine{
+#nine {
     background-image: url("/images/photos-food/Dough.jpg");
     background-repeat: no-repeat;
-    background-size: 150%; 
-    background-position: 45% 60%;   
+    background-size: 150%;
+    background-position: 45% 60%;
 
 }
 
-#ten{
+#ten {
     background-image: url("/images/photos-food/Extra_Cheese.jpg");
     background-repeat: no-repeat;
-    background-size: 160%; 
-    background-position: 45% 60%;   
+    background-size: 160%;
+    background-position: 45% 60%;
 
 }
 
-#eleven{
+#eleven {
     background-image: url("/images/photos-food/Small_Pizza.jpg");
     background-repeat: no-repeat;
-    background-size: 100%; 
-    background-position: 45% 60%;   
+    background-size: 100%;
+    background-position: 45% 60%;
 
 }
 
-#twelve{
+#twelve {
     background-image: url("/images/photos-food/Chicken_BR.jpg");
     background-repeat: no-repeat;
-    background-size: 100%; 
-    background-position: 45% 60%;   
+    background-size: 100%;
+    background-position: 45% 60%;
 
 }
 
-#cinnamon{
-    
+#cinnamon {
+
     color: black;
     font-weight: bold;
 }
 
-#farouk{
+#farouk {
     color: black;
     font-weight: bold;
     font-size: 30px;
 }
 
+@media screen and (max-width: 480px) {
 
+    .photoGrid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card, .cardTall, .cardWide {
+        width: 400px;
+        height: 300px;
+    }
+}

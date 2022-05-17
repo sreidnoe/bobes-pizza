@@ -36,10 +36,10 @@ const locations = () => {
         </div>
         <div className={styles.right}>
           <div className={styles.map}>
-            <div>
+            <div className={styles.map1}>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3127.782280524038!2d-88.0609783846649!3d38.37715777965422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8871997da49d97ab%3A0xdb342897e146c200!2sAlbion%20Bobe%E2%80%99s%20Pizza!5e0!3m2!1sen!2sus!4v1652571357258!5m2!1sen!2sus"
-                width="450"
+                width="400"
                 height="300"
                 style={{ border: 0 }}
                 allowFullScreen=""
@@ -80,10 +80,10 @@ const locations = () => {
         </div>
         <div className={styles.right}>
           <div className={styles.map}>
-            <div>
+            <div className={styles.map2}>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.5009392362904!2d-87.6820043846546!3d38.729265479596876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887204bddedf11a1%3A0x89b5511934c84aaf!2sLarry%20Bobe&#39;s%20Pizza!5e0!3m2!1sen!2sus!4v1652575255268!5m2!1sen!2sus"
-                width="450"
+                width="400"
                 height="300"
                 style={{ border: 0 }}
                 allowFullScreen=""
@@ -122,10 +122,10 @@ const locations = () => {
         </div>
         <div className={styles.right}>
           <div className={styles.map}>
-            <div>
+            <div className={styles.map3}>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3126.22797950526!2d-87.77511398466385!3d38.413095979648325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8871ee836f2fd4b1%3A0x1c317dc4cd35ac0f!2sBobe&#39;s%20Pizza!5e0!3m2!1sen!2sus!4v1652576477321!5m2!1sen!2sus"
-                width="450"
+                width="400"
                 height="300"
                 style={{ border: 0 }}
                 allowFullScreen=""
@@ -164,10 +164,10 @@ const locations = () => {
         </div>
         <div className={styles.right}>
           <div className={styles.map}>
-            <div>
+            <div className={styles.map4}>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.3846037420362!2d-88.07115518465453!3d38.7319356795966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88722eaf82fce20b%3A0x397b610afba5e757!2sBobe&#39;s%20Pizza!5e0!3m2!1sen!2sus!4v1652577097963!5m2!1sen!2sus"
-                width="450"
+                width="400"
                 height="300"
                 style={{ border: 0 }}
                 allowFullScreen=""
@@ -206,10 +206,10 @@ const locations = () => {
         </div>
         <div className={styles.right}>
           <div className={styles.map}>
-            <div>
+            <div className={styles.map5}>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3114.8650321551318!2d-87.52937128465615!3d38.674969779605625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886dff70d90ad77d%3A0x5b958371d57320b1!2sByron%20Bobe&#39;s%20Pizza%20House!5e0!3m2!1sen!2sus!4v1652577988467!5m2!1sen!2sus"
-                width="450"
+                width="400"
                 height="300"
                 style={{ border: 0 }}
                 allowFullScreen=""

@@ -67,3 +67,42 @@
   font-size: 25px;
   font-weight: bold;
 }
+
+
+@media screen and (max-width: 480px) {
+
+  .location {
+    border: double;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+
+  .left {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+
+ .map1 {
+  display: flex;
+ }
+
+ .map2 {
+   display: flex;
+ }
+
+ .map3 {
+   display: flex;
+ }
+
+ .map4 {
+   display: flex;
+ }
+
+ .map5 {
+   display: flex;
+ }
+
+}

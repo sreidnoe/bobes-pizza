@@ -127,6 +127,7 @@
 @media screen and (max-width: 480px) {
   .container {
     text-align: center;
+    
     flex-direction: column;
   }
 
