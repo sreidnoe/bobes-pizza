@@ -19,28 +19,31 @@ const Navbar = () => {
       </div>
       <div className={styles.item}>
         <ul className={styles.list}>
-          <li className={styles.homeButton}>
-            <a href="/">Home</a>
-          </li>
-          <li className={styles.listItem}>
-            <a href="/menu">Menu</a>
-          </li>
-          <li className={styles.listItem}>
-            <a href="/products">Products</a>
-          </li>
+          <Link href="/" passHref>
+            <li className={styles.listItem}>Home</li>
+          </Link>
+
+          <Link href="/menu" passHref>
+            <li className={styles.listItem}>Menu</li>
+          </Link>
+
+          <Link href="/products" passHref>
+            <li className={styles.listItem}>Products</li>
+          </Link>
           <Image
             src="/images/bobes-logo2.png"
             alt="Bobe's"
             width="250"
             height="100"
           />
-          <li className={styles.listItem}>
-            <a href="/about">About</a>
-          </li>
+          <Link href="/about" passHref>
+            <li className={styles.listItem}>About</li>
+          </Link>
+
           <li className={styles.listItem}>Contact</li>
-          <li className={styles.listItem}>
-            <a href="/locations">Locations</a>
-          </li>
+          <Link href="/locations" passHref>
+            <li className={styles.listItem}>Locations</li>
+          </Link>
         </ul>
       </div>
       <Link href="/cart" passHref>

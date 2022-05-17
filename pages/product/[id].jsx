@@ -1,13 +1,10 @@
 import styles from "../../styles/Product.module.css";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import Head from "next/head";
+import { Helmet } from "react-helmet";
 import axios from "axios";
 import { useDispatch } from "react-redux";
 import { addProduct } from "../../redux/cartSlice";
-
-//placeholder text, delete when seen.
-//also this too.
 
 const Product = ({ pizza }) => {
   const [price, setPrice] = useState(pizza.prices[0]);
@@ -44,20 +41,10 @@ const Product = ({ pizza }) => {
 
   return (
     <div className={styles.container}>
-      <Head>
-        <title>{pizza.name}</title>
-        <meta
-          name="description"
-          content="BOBE'S PIZZA IN LAWRENCEVILLE, MT. CARMEL, OLNEY, ALBION AND VINCENNES"
-        />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredericka+the+Great&family=Tapestry&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
+      <Helmet>
+        <title>Product Details</title>
+      </Helmet>
+
       <div className={styles.left}>
         <div className={styles.imgContainer}>
           <Image
