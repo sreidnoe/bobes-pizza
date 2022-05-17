@@ -1,17 +1,12 @@
 import styles from "../styles/Locations.module.css";
-import Head from "next/head";
+import { Helmet } from "react-helmet";
 
 const locations = () => {
   return (
     <div className={styles.container}>
-      <Head>
+      <Helmet>
         <title>Locations</title>
-        <meta
-          name="description"
-          content="BOBE'S PIZZA IN LAWRENCEVILLE, MT. CARMEL, OLNEY, ALBION AND VINCENNES"
-        />
-        <link rel="icon" href="/images/pizza_pic.png" />
-      </Head>
+      </Helmet>
       <div className={styles.heading}>Find a location near you!</div>
       <div className={styles.location}>
         <div className={styles.left}>
@@ -47,9 +42,9 @@ const locations = () => {
                 width="400"
                 height="300"
                 style={{ border: 0 }}
-                allowfullscreen=""
+                allowFullScreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>
@@ -91,9 +86,9 @@ const locations = () => {
                 width="400"
                 height="300"
                 style={{ border: 0 }}
-                allowfullscreen=""
+                allowFullScreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>
@@ -133,9 +128,9 @@ const locations = () => {
                 width="400"
                 height="300"
                 style={{ border: 0 }}
-                allowfullscreen=""
+                allowFullScreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>
@@ -175,9 +170,9 @@ const locations = () => {
                 width="400"
                 height="300"
                 style={{ border: 0 }}
-                allowfullscreen=""
+                allowFullScreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>
@@ -217,9 +212,9 @@ const locations = () => {
                 width="400"
                 height="300"
                 style={{ border: 0 }}
-                allowfullscreen=""
+                allowFullScreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>

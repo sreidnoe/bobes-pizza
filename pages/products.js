@@ -1,18 +1,13 @@
 import styles from "../styles/Products.module.css";
-import Head from "next/head";
+import { Helmet } from "react-helmet";
 
 const products = () => {
   return (
     <div className={styles.container}>
-      <Head>
+      <Helmet>
         <title>Products</title>
-        <meta
-          name="description"
-          content="BOBE'S PIZZA IN LAWRENCEVILLE, MT. CARMEL, OLNEY, ALBION AND VINCENNES"
-        />
-        <link rel="icon" href="/images/pizza_pic.png" />
-      </Head>
-      <div ClassName={styles.banner}>
+      </Helmet>
+      <div className={styles.banner}>
         <h1 className={styles.header}>Product Gallery</h1>
       </div>
       <div className={styles.photoGrid}>

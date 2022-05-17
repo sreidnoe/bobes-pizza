@@ -1,7 +1,8 @@
 import styles from "../styles/Cart.module.css";
-import Head from "next/head";
+import { Helmet } from "react-helmet";
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
+import Link from "next/link";
 
 const Cart = () => {
   const dispatch = useDispatch();
@@ -9,14 +10,9 @@ const Cart = () => {
 
   return (
     <div className={styles.container}>
-      <Head>
+      <Helmet>
         <title>Cart</title>
-        <meta
-          name="description"
-          content="BOBE'S PIZZA IN LAWRENCEVILLE, MT. CARMEL, OLNEY, ALBION AND VINCENNES"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Helmet>
       <div className={styles.left}>
         <table className={styles.table}>
           <tr className={styles.trTitle}>
@@ -78,9 +74,9 @@ const Cart = () => {
           <div className={styles.totalText}>
             <b className={styles.totalTextTitle}>Total:</b>${cart.total}
           </div>
-          <a href="/orders/1">
+          <Link href="/orders/1" passHref>
             <button className={styles.button}>Cash on Delivery!</button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
