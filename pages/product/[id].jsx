@@ -4,10 +4,9 @@ import React, { useEffect, useState } from "react";
 import Head from "next/head";
 import axios from "axios";
 import { useDispatch } from "react-redux";
-import { addProduct } from "../../redux/cartSlice";
+import { addProduct } from "../../styles/redux/cartSlice";
 
-//placeholder text, delete when seen.
-//also this too.
+
 
 const Product = ({ pizza }) => {
   const [price, setPrice] = useState(pizza.prices[0]);

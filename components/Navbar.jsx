@@ -2,6 +2,7 @@ import styles from "../styles/Navbar.module.css";
 import Image from "next/image";
 import { useSelector } from "react-redux";
 import Link from "next/link";
+import Dropdown from "../pages/Dropdown";
 
 const Navbar = () => {
   const quantity = useSelector((state) => state.cart.quantity);
@@ -16,33 +17,22 @@ const Navbar = () => {
           <div className={styles.text}>Order Now!</div>
           <div className={styles.text}>618.555.1212</div>
         </div>
+
+       <Dropdown/>
+
       </div>
+
       <div className={styles.item}>
-        <ul className={styles.list}>
-          <li className={styles.homeButton}>
-            <a href="/">Home</a>
-          </li>
-          <li className={styles.listItem}>
-            <a href="/menu">Menu</a>
-          </li>
-          <li className={styles.listItem}>
-            <a href="/products">Products</a>
-          </li>
+        
           <Image
             src="/images/bobes-logo2.png"
             alt="Bobe's"
             width="250"
             height="100"
           />
-          <li className={styles.listItem}>
-            <a href="/about">About</a>
-          </li>
-          <li className={styles.listItem}>Contact</li>
-          <li className={styles.listItem}>
-            <a href="/locations">Locations</a>
-          </li>
-        </ul>
+          
       </div>
+      
       <Link href="/cart" passHref>
         <div className={styles.item}>
           <div className={styles.cart}>

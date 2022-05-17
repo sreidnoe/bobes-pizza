@@ -12,7 +12,6 @@
   );
   display: flex;
   align-items: center;
-  justify-content: space-between;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -26,6 +25,7 @@
   flex: 1;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .item:nth-child(2) {
@@ -104,8 +104,11 @@
 }
 
 @media screen and (max-width: 480px) {
-  .item:nth-child(2) {
- display: none;
+  
+.cart {
+  display: flex;
+  padding-left: 40px;
+  padding-bottom: 77px;
 }
 
 }

@@ -1,0 +1,158 @@
+.dropdown {
+    padding-left: 50px;
+}
+
+.dropdownmenu {
+    width: 5rem;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.dropdownmenu:hover {
+    color: black;
+}
+
+.dropIcon {
+    border-radius: 100px;
+}
+
+.dropdownlist {
+    list-style-type: none;
+    position: absolute;
+    bottom: -5.8rem;
+    width: 115px;
+    background-image: linear-gradient(43deg,
+            #ea0a0c 0%,
+            #f2e9f2 22%,
+            #118934 49%,
+            #ffffff 75%,
+            #f70707 100%);
+    border: 2px solid black;
+}
+
+.dropdownlist>li {
+    border: 1px solid transparent;
+}
+
+.dropdownlist>li:hover {
+    border: 1px solid black;
+}
+
+
+
+.dropdownmenu {
+    width: 5rem;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.dropdownmenu:hover {
+    color: black;
+}
+
+.dropdownlist {
+    list-style-type: none;
+    position: absolute;
+    bottom: -5.8rem;
+    width: 115px;
+    background-image: linear-gradient(43deg,
+            #ea0a0c 0%,
+            #f2e9f2 22%,
+            #118934 49%,
+            #ffffff 75%,
+            #f70707 100%);
+    border: 2px solid black;
+}
+
+.dropdownlist>li {
+    border: 1px solid transparent;
+}
+
+.dropdownlist>li:hover {
+    border: 1px solid black;
+}
+
+
+.dropdownmenu {
+    width: 5rem;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.dropdownmenu:hover {
+    color: black;
+}
+
+.dropdownlist {
+    list-style-type: none;
+    position: absolute;
+    bottom: -5.8rem;
+    width: 115px;
+    background-image: linear-gradient(43deg,
+            #ea0a0c 0%,
+            #f2e9f2 22%,
+            #118934 49%,
+            #ffffff 75%,
+            #f70707 100%);
+    border: 2px solid black;
+}
+
+.dropdownlist>li {
+    border: 1px solid transparent;
+}
+
+.dropdownlist>li:hover {
+    border: 1px solid black;
+}
+
+
+
+.dropdownmenu {
+    width: 5rem;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.dropdownmenu:hover {
+    color: black;
+}
+
+.dropdownlist {
+    list-style-type: none;
+    position: absolute;
+    bottom: -5.8rem;
+    width: 115px;
+    background-image: linear-gradient(43deg,
+            #ea0a0c 0%,
+            #f2e9f2 22%,
+            #118934 49%,
+            #ffffff 75%,
+            #f70707 100%);
+    border: 2px solid black;
+}
+
+.dropdownlist>li {
+    border: 1px solid transparent;
+}
+
+.dropdownlist>li:hover {
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 480px) {
+    .dropdown {
+        padding-left: 40px;
+    }
+
+    .dropdownlist {
+        bottom: -9.7rem;
+    }
+}
