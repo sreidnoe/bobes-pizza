@@ -10,29 +10,26 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-        <div className={styles.callButton}>
+        {/* <div className={styles.callButton}>
           <Image src="/images/ring.gif" alt="" width="50" height="50" />
-        </div>
-        <div className={styles.texts}>
+        </div> */}
+        {/* <div className={styles.texts}>
           <div className={styles.text}>Order Now!</div>
           <div className={styles.text}>618.555.1212</div>
-        </div>
+        </div> */}
 
-       <Dropdown/>
-
+        <Dropdown />
       </div>
 
       <div className={styles.item}>
-        
-          <Image
-            src="/images/bobes-logo2.png"
-            alt="Bobe's"
-            width="250"
-            height="100"
-          />
-          
+        <Image
+          src="/images/bobes-logo2.png"
+          alt="Bobe's"
+          width="250"
+          height="100"
+        />
       </div>
-      
+
       <Link href="/cart" passHref>
         <div className={styles.item}>
           <div className={styles.cart}>

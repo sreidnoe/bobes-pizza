@@ -2,6 +2,23 @@
     padding-left: 50px;
 }
 
+.pizza{
+    background-color: black;
+    color: white;
+    z-index: 1;
+    top: -5px;
+    left: 10px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 25px;
+    width: 55px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+
+
 .dropdownmenu {
     width: 5rem;
     text-align: left;
@@ -16,6 +33,7 @@
 
 .dropIcon {
     border-radius: 100px;
+  
 }
 
 .dropdownlist {

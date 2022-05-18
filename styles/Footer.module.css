@@ -8,17 +8,29 @@
       #ffffff 75%,
       #f70707 100%);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 
 .next {
   font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+
 }
 
-.hover1:hover, .hover2:hover, .hover3:hover,
-.hover4:hover, .hover5:hover, .hover6:hover, .hover7:hover {
+.workContainer{
+  margin-right: 10%;
+}
+
+.hover{
+  margin-left: 3em;
+  justify-content: start;
+}
+
+.hover:hover {
   font-size: x-large;
 }
 
@@ -66,6 +78,8 @@
     padding-right: 5px;
     border: 1px solid black;
     align-items: center;
+    flex-direction: row;
+
   }
 
   
