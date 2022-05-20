@@ -12,9 +12,10 @@
 }
 
 .pizza img {
-  border-radius: 7000px 4000px;
+  border-radius: 200px 200px;
   animation: rotation 20s infinite linear;
   cursor: pointer;
+  
 }
 
 @keyframes rotation {
