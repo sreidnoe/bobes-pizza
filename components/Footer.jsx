@@ -1,30 +1,52 @@
 import styles from "../styles/Footer.module.css";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.next}>
-        <a className={styles.hover} href="/">
+        <Link>
+        <p className={styles.hover} href="/">
           Home
-        </a>
-        <a className={styles.hover} href="/menu">
+        </p>
+        </Link>
+        
+        <Link>
+        <p className={styles.hover} href="/menu">
           Menu
-        </a>
-        <a className={styles.hover} href="/products">
+        </p>
+        </Link>
+        
+        <Link>
+        <p className={styles.hover} href="/products">
           Products
-        </a>
-        <a className={styles.hover} href="/about">
+        </p>
+        </Link>
+        
+        <Link>
+        <p className={styles.hover} href="/about">
           About
-        </a>
-        <a className={styles.hover} href="http://bobespizza.net/careers/">
+        </p>
+        </Link>
+        
+        <Link>
+         <p className={styles.hover} href="http://bobespizza.net/careers/">
           Careers
-        </a>
-        <a className={styles.hover} href="/locations">
+        </p>
+        </Link>
+       
+       <Link>
+       <p className={styles.hover} href="/locations">
           Locations
-        </a>
-        <a className={styles.hover} href="/cart">
+        </p>
+       </Link>
+        
+        <Link>
+        <p className={styles.hover} href="/cart">
           Cart
-        </a>
+        </p>
+        </Link>
+        
       </div>
       <div className={styles.workContainer}>
         <div className={styles.workHours}>Working Hours</div>
