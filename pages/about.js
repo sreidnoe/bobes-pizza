@@ -12,7 +12,7 @@ const about = () => {
       </h1>
       <p className={styles.desc}>
         When you are craving cheesy pizza that is made
-        from scratch and has been a local favorite since the 1950s, there’s only
+        from scratch and has been a local favorite since the 1950s, theres only
         one place to go, Bobe's Pizza. All of our pizzas are made with the
         freshest of ingredients.Hand prepared, never frozen. From our signature
         crust to our mouthwatering, cheese, everything is prepared to order by
@@ -26,8 +26,8 @@ const about = () => {
         Street in Vincennes, Indiana.
         <br />
         <br /> At the time, it was the only pizza
-        available for 80 miles. Larry, Billy’s younger brother, started managing
-        the pizzeria at the age of 17 years old. It’s a craft he’s been
+        available for 80 miles. Larry, Billys younger brother, started managing
+        the pizzeria at the age of 17 years old. Its a craft hes been
         mastering his entire life and one he came to call his own when he opened
         his doors on the corner of 9th and State Street in Lawrenceville
         Illinois.
