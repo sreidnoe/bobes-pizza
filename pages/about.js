@@ -13,7 +13,7 @@ const about = () => {
       <p className={styles.desc}>
         &nbsp;&nbsp;&nbsp;&nbsp; When you are craving cheesy pizza that is made
         from scratch and has been a local favorite since the 1950s, there’s only
-        one place to go, Bobe's Pizza. All of our pizzas are made with the
+        one place to go, Bobe\'s Pizza. All of our pizzas are made with the
         freshest of ingredients.Hand prepared, never frozen. From our signature
         crust to our mouthwatering, cheese, everything is prepared to order by
         our awesome pizza pros. <br />
