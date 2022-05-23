@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "../styles/Dropdown.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 function Dropdown() {
   const [state, setstate] = useState(false);
@@ -32,22 +33,22 @@ function Dropdown() {
         {state ? (
           <ul className={styles.dropdownlist} onClick={showDropdown}>
             <li>
-              <a href="/">Home</a>
+            <Link href="/" passHref>Home</Link>
             </li>
             <li>
-              <a href="/menu">Menu</a>
+            <Link href="/menu" passHref>Menu</Link>
             </li>
             <li>
-              <a href="/products">Products</a>
+            <Link href="/products" passHref>Products</Link>
             </li>
             <li>
-              <a href="/about">About</a>
+            <Link href="/about" passHref>About</Link>
             </li>
             <li>
-              <a href="http://bobespizza.net/careers/">Careers</a>
+            <Link href="/http://bobespizza.net/careers/" passHref>Careers</Link>
             </li>
             <li>
-              <a href="/locations">Locations</a>
+            <Link href="/locations" passHref>Locations</Link>
             </li>
           </ul>
         ) : null}
