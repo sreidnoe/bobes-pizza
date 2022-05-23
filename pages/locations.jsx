@@ -16,7 +16,7 @@ const locations = () => {
             <div className={styles.text}>18 W Main St, Albion, IL 62806</div>
 
             <div className={styles.text}>
-              <Link href="https://g.page/r/CQDCRuGXKDTbEAo" passhref>
+              <Link href="https://g.page/r/CQDCRuGXKDTbEAo" passHref>
                 <p className={styles.link}>See Store Hours</p>
               </Link>
             </div>
@@ -25,13 +25,13 @@ const locations = () => {
               <p>618-442-0044</p>
             </div>
             <div className={styles.links}>
-              <Link href="#" passhref>
+              <Link href="#" passHref>
                 <button className={styles.button}>Menu</button>
               </Link>
 
               <Link
                 href="https://www.toasttab.com/bobes-pizza-18-main-street/v3/"
-                passhref
+                passHref
               >
                 <button className={styles.button}>Order Now</button>
               </Link>
@@ -62,7 +62,7 @@ const locations = () => {
               808 State St, Lawrenceville, IL 62439
             </div>
             <div className={styles.text}>
-              <Link href="https://g.page/r/Ca9KyDQZUbWJEAo" passhref>
+              <Link href="https://g.page/r/Ca9KyDQZUbWJEAo" passHref>
                 <p className={styles.link}>See Store Hours</p>
               </Link>
             </div>
@@ -70,12 +70,12 @@ const locations = () => {
               <p>618-943-2612</p>
             </div>
             <div className={styles.links}>
-              <Link href="#" passhref>
+              <Link href="#" passHref>
                 <button className={styles.button}>Menu</button>
               </Link>
               <Link
                 href="https://www.toasttab.com/bobes-pizza-lawrenceville/v3/"
-                passhref
+                passHref
               >
                 <button className={styles.button}>Order Now</button>
               </Link>
@@ -104,7 +104,7 @@ const locations = () => {
             <div className={styles.textHead}>Bobe's Pizza</div>
             <div className={styles.text}>620 W 9th St, Mt Carmel, IL 62863</div>
             <div className={styles.text}>
-              <Link href="https://g.page/r/CQ-sNc3EfTEcEAo" passhref>
+              <Link href="https://g.page/r/CQ-sNc3EfTEcEAo" passHref>
                 <p className={styles.link}>See Store Hours</p>
               </Link>
             </div>
@@ -112,13 +112,13 @@ const locations = () => {
               <p>618-450-2623</p>
             </div>
             <div className={styles.links}>
-              <Link href="#" passhref>
+              <Link href="#" passHref>
                 <button className={styles.button}>Menu</button>
               </Link>
 
               <Link
                 href="https://www.toasttab.com/bobes-pizza-mt-carmel/v3/"
-                passhref
+                passHref
               >
                 <button className={styles.button}>Order Now</button>
               </Link>
@@ -147,7 +147,7 @@ const locations = () => {
             <div className={styles.textHead}>Bobe's Pizza</div>
             <div className={styles.text}>1610 E Main St, Olney, IL 62450</div>
             <div className={styles.text}>
-              <Link href="https://g.page/r/CVfnpfsKYXs5EAo" passhref>
+              <Link href="https://g.page/r/CVfnpfsKYXs5EAo" passHref>
                 <p className={styles.link}>See Store Hours</p>
               </Link>
             </div>
@@ -155,12 +155,12 @@ const locations = () => {
               <p>618-392-0553</p>
             </div>
             <div className={styles.links}>
-              <Link href="#" passhref>
+              <Link href="#" passHref>
                 <button className={styles.button}>Menu</button>
               </Link>
               <Link
                 href="https://www.toasttab.com/bobes-pizza-olney/v3/"
-                passhref
+                passHref
               >
                 <button className={styles.button}>Order Now</button>
               </Link>
@@ -189,7 +189,7 @@ const locations = () => {
             <div className={styles.textHead}>Byron Bobe's Pizza House</div>
             <div className={styles.text}>812 Main St, Vincennes, IN 47591</div>
             <div className={styles.text}>
-              <Link href="https://g.page/r/CbEgc9Vxg5VbEAo" passhref>
+              <Link href="https://g.page/r/CbEgc9Vxg5VbEAo" passHref>
                 <a className={styles.link}>See Store Hours</a>
               </Link>
             </div>
@@ -197,12 +197,12 @@ const locations = () => {
               <p>812-882-4546</p>
             </div>
             <div className={styles.links}>
-              <Link href="#" passhref>
+              <Link href="#" passHref>
                 <button className={styles.button}>Menu</button>
               </Link>
               <Link
                 href="https://www.toasttab.com/bobes-pizza-main-st-812-main-st/v3/"
-                passhref
+                passHref
               >
                 <button className={styles.button}>Order Now</button>
               </Link>
