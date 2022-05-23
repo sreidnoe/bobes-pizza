@@ -5,48 +5,33 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.next}>
-        <Link>
-        <p className={styles.hover} href="/">
-          Home
-        </p>
+        <Link href="/" passHref>
+          <p className={styles.hover}>Home</p>
         </Link>
-        
-        <Link>
-        <p className={styles.hover} href="/menu">
-          Menu
-        </p>
+
+        <Link href="/menu" passHref>
+          <p className={styles.hover}>Menu</p>
         </Link>
-        
-        <Link>
-        <p className={styles.hover} href="/products">
-          Products
-        </p>
+
+        <Link href="/products" passHref>
+          <p className={styles.hover}>Products</p>
         </Link>
-        
-        <Link>
-        <p className={styles.hover} href="/about">
-          About
-        </p>
+
+        <Link href="/about" passHref>
+          <p className={styles.hover}>About</p>
         </Link>
-        
-        <Link>
-         <p className={styles.hover} href="http://bobespizza.net/careers/">
-          Careers
-        </p>
+
+        <Link href="http://bobespizza.net/careers/" passHref>
+          <p className={styles.hover}>Careers</p>
         </Link>
-       
-       <Link>
-       <p className={styles.hover} href="/locations">
-          Locations
-        </p>
-       </Link>
-        
-        <Link>
-        <p className={styles.hover} href="/cart">
-          Cart
-        </p>
+
+        <Link href="/locations" passHref>
+          <p className={styles.hover}>Locations</p>
         </Link>
-        
+
+        <Link href="/cart" passHref>
+          <p className={styles.hover}>Cart</p>
+        </Link>
       </div>
       <div className={styles.workContainer}>
         <div className={styles.workHours}>Working Hours</div>

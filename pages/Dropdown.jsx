@@ -32,31 +32,29 @@ function Dropdown() {
 
         {state ? (
           <ul className={styles.dropdownlist} onClick={showDropdown}>
-          
             <Link href="/" passHref>
               <li>Home</li>
             </Link>
-            
+
             <Link href="/menu" passHref>
               <li>Menu</li>
             </Link>
-            
+
             <Link href="/products" passHref>
               <li>Products</li>
             </Link>
-            
+
             <Link href="/about" passHref>
               <li>About</li>
             </Link>
-            
+
             <Link href="/http://bobespizza.net/careers/" passHref>
               <li>Careers</li>
             </Link>
-            
+
             <Link href="/locations" passHref>
               <li>Locations</li>
             </Link>
-            
           </ul>
         ) : null}
       </div>

@@ -10,14 +10,6 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-        {/* <div className={styles.callButton}>
-          <Image src="/images/ring.gif" alt="" width="50" height="50" />
-        </div> */}
-        {/* <div className={styles.texts}>
-          <div className={styles.text}>Order Now!</div>
-          <div className={styles.text}>618.555.1212</div>
-        </div> */}
-
         <Dropdown />
       </div>
 
