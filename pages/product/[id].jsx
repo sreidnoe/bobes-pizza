@@ -1,11 +1,10 @@
 import styles from "../../styles/Product.module.css";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { Helmet } from "react-helmet";
+
 import axios from "axios";
 import { useDispatch } from "react-redux";
 import { addProduct } from "../../styles/redux/cartSlice";
-
 
 const Product = ({ pizza }) => {
   const [price, setPrice] = useState(pizza.prices[0]);
@@ -42,10 +41,6 @@ const Product = ({ pizza }) => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        <title>Product Details</title>
-      </Helmet>
-
       <div className={styles.left}>
         <div className={styles.imgContainer}>
           <Image

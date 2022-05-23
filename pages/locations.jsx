@@ -1,13 +1,10 @@
 import styles from "../styles/Locations.module.css";
-import { Helmet } from "react-helmet";
+
 import Link from "next/link";
 
 const locations = () => {
   return (
     <div className={styles.container}>
-      <Helmet>
-        <title>Locations</title>
-      </Helmet>
       <div className={styles.heading}>Find a location near you!</div>
       <div className={styles.location}>
         <div className={styles.left}>

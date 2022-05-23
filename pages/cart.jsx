@@ -1,5 +1,5 @@
 import styles from "../styles/Cart.module.css";
-import { Helmet } from "react-helmet";
+
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
 import Link from "next/link";
@@ -10,9 +10,6 @@ const Cart = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        <title>Cart</title>
-      </Helmet>
       <div className={styles.left}>
         <table className={styles.table}>
           <tr className={styles.trTitle}>

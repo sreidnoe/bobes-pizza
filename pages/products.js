@@ -1,12 +1,8 @@
 import styles from "../styles/Products.module.css";
-import { Helmet } from "react-helmet";
 
 const products = () => {
   return (
     <div className={styles.container}>
-      <Helmet>
-        <title>Products</title>
-      </Helmet>
       <div className={styles.banner}>
         <h1 className={styles.header}>Product Gallery</h1>
       </div>

@@ -1,13 +1,8 @@
 import styles from "../styles/Menu.module.css";
 
-import { Helmet } from "react-helmet";
-
 const menu = () => {
   return (
     <div className={styles.container}>
-      <Helmet>
-        <title>Menu</title>
-      </Helmet>
       <div className={styles.menu}>
         <h2 className={styles.heading}>Appetizers</h2>
         <div className={styles.menuGroup}>

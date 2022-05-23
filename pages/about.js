@@ -1,12 +1,8 @@
 import styles from "../styles/About.module.css";
-import { Helmet } from "react-helmet";
 
 const about = () => {
   return (
     <div className={styles.container}>
-      <Helmet>
-        <title>About Us</title>
-      </Helmet>
       <div>
         <h1 className={styles.title}>
           WE MAKE PIZZA HOW YOU LIKE IT, FROM SCRATCH.
