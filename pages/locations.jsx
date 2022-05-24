@@ -187,7 +187,7 @@ const locations = () => {
             <div className={styles.text}>812 Main St, Vincennes, IN 47591</div>
             <div className={styles.text}>
               <Link href="https://g.page/r/CbEgc9Vxg5VbEAo" passHref>
-                <a className={styles.link}>See Store Hours</a>
+                <p className={styles.link}>See Store Hours</p>
               </Link>
             </div>
             <div className={styles.text}>
