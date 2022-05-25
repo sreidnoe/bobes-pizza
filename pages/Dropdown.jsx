@@ -48,7 +48,7 @@ function Dropdown() {
               <li>About</li>
             </Link>
 
-            <Link href="/http://bobespizza.net/careers/" passHref>
+            <Link href="https://bobespizza.net/careers/" passHref>
               <li>Careers</li>
             </Link>
 

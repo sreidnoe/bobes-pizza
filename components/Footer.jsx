@@ -5,33 +5,47 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.next}>
-        <Link href="/" passHref>
-          <p className={styles.hover}>Home</p>
-        </Link>
+        <div className={styles.hover}>
+          <Link href="/" passHref>
+            <p>Home</p>
+          </Link>
+        </div>
 
-        <Link href="/menu" passHref>
-          <p className={styles.hover}>Menu</p>
-        </Link>
+        <div className={styles.hover}>
+          <Link href="/menu" passHref>
+            <p>Menu</p>
+          </Link>
+        </div>
 
-        <Link href="/products" passHref>
-          <p className={styles.hover}>Products</p>
-        </Link>
+        <div className={styles.hover}>
+          <Link href="/products" passHref>
+            <p>Products</p>
+          </Link>
+        </div>
 
-        <Link href="/about" passHref>
-          <p className={styles.hover}>About</p>
-        </Link>
+        <div className={styles.hover}>
+          <Link href="/about" passHref>
+            <p>About</p>
+          </Link>
+        </div>
 
-        <Link href="http://bobespizza.net/careers/" passHref>
-          <p className={styles.hover}>Careers</p>
-        </Link>
+        <div className={styles.hover}>
+          <Link href="https://bobespizza.net/careers/" passHref>
+            <p>Careers</p>
+          </Link>
+        </div>
 
-        <Link href="/locations" passHref>
-          <p className={styles.hover}>Locations</p>
-        </Link>
+        <div className={styles.hover}>
+          <Link href="/locations" passHref>
+            <p>Locations</p>
+          </Link>
+        </div>
 
-        <Link href="/cart" passHref>
-          <p className={styles.hover}>Cart</p>
-        </Link>
+        <div className={styles.hover}>
+          <Link href="/cart" passHref className={styles.hover}>
+            <p>Cart</p>
+          </Link>
+        </div>
       </div>
       <div className={styles.workContainer}>
         <div className={styles.workHours}>Working Hours</div>

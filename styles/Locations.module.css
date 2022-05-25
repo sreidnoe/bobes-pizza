@@ -79,30 +79,15 @@
   }
 
   .left {
-    height: 160px;
+    height: 250px;
     display: flex;
     align-items: center;
     padding-bottom: 100px;
   }
 
- .map1 {
-  display: flex;
+ .map1, .map2,.map3, .map4, .map5 { 
+   display:none;
  }
-
- .map2 {
-   display: flex;
- }
-
- .map3 {
-   display: flex;
- }
-
- .map4 {
-   display: flex;
- }
-
- .map5 {
-   display: flex;
- }
+  
 
 }

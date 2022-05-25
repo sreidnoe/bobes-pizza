@@ -49,16 +49,11 @@
   }
 
   .workContainer {
-    font-size: small;
-    display: flex;
-    flex-direction: column;
-    width: 185px;
+    display: none;
   }
 
   .workHours {
-    display: flex;
-    font-weight: bold;
-    justify-content: center;
+    display: none;
     
   }
 
@@ -68,17 +63,11 @@
     
   }
 
+  
+
   .next {
-    display: flex;
-    height: 30px;
-    cursor: pointer;
-    font-weight: bold;
-    justify-content: space-between;
-    padding-left: 5px;
-    padding-right: 5px;
-    border: 1px solid black;
-    align-items: center;
-    flex-direction: row;
+    display: none;
+    
 
   }
 
